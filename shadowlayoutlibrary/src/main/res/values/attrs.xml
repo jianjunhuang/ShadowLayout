@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowLayout">
+        <attr name="shadowColor" format="color|reference" />
+        <attr name="shadowRadius" format="dimension|reference" />
+        <attr name="shadowDX" format="dimension|reference" />
+        <attr name="shadowDY" format="dimension|reference" />
+        <attr name="layoutRadius" format="dimension|reference" />
+        <attr name="backgroundColor" format="color|reference" />
+        <attr name="shadowPosition">
+            <flag name="all" value="0x1111" />
+            <flag name="left" value="0x0001" />
+            <flag name="top" value="0x0010" />
+            <flag name="right" value="0x0100" />
+            <flag name="bottom" value="0x1000" />
+        </attr>
+    </declare-styleable>
+</resources>
