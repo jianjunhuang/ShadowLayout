@@ -17,7 +17,8 @@
         app:shadowDX="0dp"
         app:shadowDY="1dp"
         app:shadowPosition="all"
-        app:shadowRadius="2dp">
+        app:shadowRadius="2dp"
+        app:backgroundColor="#f1f1f1">
 
         <ImageView
             android:layout_width="wrap_content"
