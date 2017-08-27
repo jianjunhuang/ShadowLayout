@@ -1,7 +1,7 @@
 # ShadowLayout
 带阴影的 Layout ，继承自 RelativeLayout。
 
-![效果](\pic\Screenshot_20170827-224933.png)
+![效果](pic/Screenshot_20170827-224933.png)
 
 ### 属性
 ```
