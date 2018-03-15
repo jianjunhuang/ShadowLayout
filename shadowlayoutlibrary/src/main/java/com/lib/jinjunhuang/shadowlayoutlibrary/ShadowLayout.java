@@ -24,25 +24,25 @@ public class ShadowLayout extends RelativeLayout {
     public static final int RIGHT = 0x0100;
     public static final int BOTTOM = 0x1000;
 
-    private static final int DEFAULT_COLOR = Color.parseColor("#a1a1a1");
+    protected static final int DEFAULT_COLOR = Color.parseColor("#a1a1a1");
 
-    private float mShadowRadius = 0;
+    protected float mShadowRadius = 0;
 
-    private int mShadowColor = DEFAULT_COLOR;
+    protected int mShadowColor = DEFAULT_COLOR;
 
-    private float mLayoutRadius = 0;
+    protected float mLayoutRadius = 0;
 
-    private float mShadowDX = 0;
+    protected float mShadowDX = 0;
 
-    private float mShadowDY = 0;
+    protected float mShadowDY = 0;
 
-    private int mShadowPosition = ALL;
+    protected int mShadowPosition = ALL;
 
-    private Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+    protected Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
-    private RectF mRectF = new RectF();
+    protected RectF mRectF = new RectF();
 
-    private int mBackgroundColor = Color.parseColor("#f1f1f1");
+    protected int mBackgroundColor = Color.parseColor("#f1f1f1");
 
     public ShadowLayout(Context context) {
         this(context, null);
@@ -126,7 +126,7 @@ public class ShadowLayout extends RelativeLayout {
         mPaint.setShadowLayer(mShadowRadius, mShadowDX, mShadowDY, mShadowColor);
     }
 
-    private float dpToPx(float dp) {
+    protected float dpToPx(float dp) {
         DisplayMetrics dm = getContext().getResources().getDisplayMetrics();
         float scale = dm.density;
         return (dp * scale + 0.5f);

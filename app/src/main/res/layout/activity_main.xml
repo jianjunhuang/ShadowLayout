@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context="com.lib.jinjunhuang.shadowlayout.MainActivity">
 
-    <com.lib.jinjunhuang.shadowlayoutlibrary.ShadowLayout
+    <com.lib.jinjunhuang.shadowlayoutlibrary.ScheduleBackgroundView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_launcher" />
 
-    </com.lib.jinjunhuang.shadowlayoutlibrary.ShadowLayout>
+    </com.lib.jinjunhuang.shadowlayoutlibrary.ScheduleBackgroundView>
 
     <TextView
         android:layout_width="match_parent"
