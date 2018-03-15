@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ShadowLayout.iml" filepath="$PROJECT_DIR$/.idea/ShadowLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShadowLayout.iml" filepath="$PROJECT_DIR$/ShadowLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shadowlayoutlibrary/shadowlayoutlibrary.iml" filepath="$PROJECT_DIR$/shadowlayoutlibrary/shadowlayoutlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/shadowlayoutlibrary/shadowlayoutlibrary.iml" filepath="$PROJECT_DIR$/shadowlayoutlibrary/shadowlayoutlibrary.iml" />
     </modules>
   </component>
