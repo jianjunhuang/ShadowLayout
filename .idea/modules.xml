@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ShadowLayout.iml" filepath="$PROJECT_DIR$/.idea/ShadowLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShadowLayout.iml" filepath="$PROJECT_DIR$/ShadowLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shadowlayoutlibrary/shadowlayoutlibrary.iml" filepath="$PROJECT_DIR$/shadowlayoutlibrary/shadowlayoutlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shadowlayoutlibrary/shadowlayoutlibrary.iml" filepath="$PROJECT_DIR$/shadowlayoutlibrary/shadowlayoutlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShadowLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/ShadowLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShadowLayout.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShadowLayout.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShadowLayout.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShadowLayout.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShadowLayout.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShadowLayout.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShadowLayout.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShadowLayout.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shadowlayoutlibrary/ShadowLayout.shadowlayoutlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/shadowlayoutlibrary/ShadowLayout.shadowlayoutlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shadowlayoutlibrary/ShadowLayout.shadowlayoutlibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shadowlayoutlibrary/ShadowLayout.shadowlayoutlibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shadowlayoutlibrary/ShadowLayout.shadowlayoutlibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shadowlayoutlibrary/ShadowLayout.shadowlayoutlibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shadowlayoutlibrary/ShadowLayout.shadowlayoutlibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shadowlayoutlibrary/ShadowLayout.shadowlayoutlibrary.unitTest.iml" />
     </modules>
   </component>
 </project>
