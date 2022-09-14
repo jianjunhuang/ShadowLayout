@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:background="#ffffff"
     android:orientation="vertical"
     tools:context="com.lib.jinjunhuang.shadowlayout.MainActivity">
 
@@ -12,13 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        app:layoutRadius="3dp"
+        app:backgroundColor="#f1f1f1"
+        app:layoutRadius="0dp"
         app:shadowColor="#a1a1a1"
         app:shadowDX="0dp"
-        app:shadowDY="1dp"
+        app:shadowDY="4dp"
         app:shadowPosition="all"
-        app:shadowRadius="2dp"
-        app:backgroundColor="#f1f1f1">
+        app:shadowRadius="16dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -31,4 +31,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="HAHAHAHAHAHAHAHAHAHAHAHHAHAAHAH" />
+
+    <com.lib.jinjunhuang.shadowlayoutlibrary.ShadowFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        app:backgroundRadius="8dp"
+        app:customBackgroundColor="#f1f1f1"
+        app:shadowColor="#a1a1a1"
+        app:shadowOffsetY="16dp"
+        app:shadowRadius="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+    </com.lib.jinjunhuang.shadowlayoutlibrary.ShadowFrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAHAHAHAHAHAHAHAHAHAHAHHAHAAHAH" />
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="8dp"
+        android:elevation="16dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_launcher" />
+    </androidx.cardview.widget.CardView>
 </LinearLayout>

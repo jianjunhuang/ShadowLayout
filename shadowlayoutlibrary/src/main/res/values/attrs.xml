@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="shadowColor" format="color|reference" />
+    <attr name="shadowRadius" format="dimension|reference" />
     <declare-styleable name="ShadowLayout">
-        <attr name="shadowColor" format="color|reference" />
-        <attr name="shadowRadius" format="dimension|reference" />
+        <attr name="shadowColor" />
+        <attr name="shadowRadius" />
         <attr name="shadowDX" format="dimension|reference" />
         <attr name="shadowDY" format="dimension|reference" />
         <attr name="layoutRadius" format="dimension|reference" />
@@ -14,5 +16,14 @@
             <flag name="right" value="0x0100" />
             <flag name="bottom" value="0x1000" />
         </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowFrameLayout">
+        <attr name="shadowColor" />
+        <attr name="shadowRadius" />
+        <attr name="customBackgroundColor" format="color|reference" />
+        <attr name="backgroundRadius" format="dimension|reference" />
+        <attr name="shadowOffsetX" format="dimension|reference" />
+        <attr name="shadowOffsetY" format="dimension|reference" />
     </declare-styleable>
 </resources>
